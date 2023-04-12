@@ -1,0 +1,127 @@
+@media(max-width:425px){
+    .section-principal{
+        height: 300px;
+        margin-top: 30%;
+        @include flex(center, center, column);
+    
+        h1{
+            text-align: center;
+         color: $color-letter;
+        font-size: 40px;
+        padding: 50px;
+    
+    }
+    
+        h2{
+        display: none;
+        }
+    
+        img{
+        display: block;
+        max-width: 70%;
+        border: 5px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        outline: 1px solid #fff;
+        }
+    }
+
+    // MENU SOBRE MI
+
+    .section{
+        img{
+            display: none;
+        }
+        }
+
+        // MENU PORTFOLIO
+
+        .container-fluid{
+            .carrusel{
+                display: none;
+            }
+
+            .button-repository{
+                margin-top: 120%;
+            }
+
+            img{
+                display: block;
+                margin-top: -130%;
+                margin-left: 10%;
+                max-width: 95%;
+            
+            }
+        }
+
+        // MENU UBICACION
+
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+
+            .iframe{
+                display: none;
+            }
+        
+            .iframe-responsive{
+                display: block;
+            }
+        }
+
+        // MENU CONTACTO
+
+        .container-contact{
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+        
+            h1{
+                display: none;
+            }
+        
+            p{
+                display: none;
+            }
+        
+            img{
+                display: block;
+            }
+        
+        .button-contact{
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            gap: 1rem;
+        
+            .button-email {
+                margin: 1rem;
+                font-size: 1.2rem;
+                font-weight: bold;
+                padding: 10px 40px;
+                border-radius: 10px;
+                border: 2px solid rgba(0, 0, 0, 0.5);
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+                color: $color-letter;
+                background-color: blueviolet;
+            }
+            
+            .button-wp {
+                margin: 1rem;
+                font-size: 1.2rem;
+                font-weight: bold;
+                padding: 10px 40px;
+                border-radius: 10px;
+                border: 2px solid rgba(0, 0, 0, 0.5);
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+                color: $color-letter;
+                background-color: blueviolet;
+            }
+        
+        }
+        }
+}

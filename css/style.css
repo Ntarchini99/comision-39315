@@ -32,23 +32,6 @@ header {
         header nav .menu ul a:hover {
           color: lightblue; }
 
-@media (max-width: 768px) {
-  header nav .menu {
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    padding: 0.5; }
-    header nav .menu ul {
-      flex-direction: column;
-      align-items: start;
-      padding: 0.5rem; }
-  header nav label {
-    display: inline-flex;
-    color: white;
-    cursor: pointer; }
-  header nav #toggle:checked ~ .menu {
-    height: 70vh; } }
-
 footer {
   color: white;
   margin-top: auto;
@@ -77,7 +60,7 @@ main {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    width: 50%;
+    width: 80%;
     margin: 15px auto;
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
@@ -98,7 +81,8 @@ main {
       margin-right: 15px; }
   main .section-dos h2 {
     text-align: center;
-    color: antiquewhite; }
+    color: antiquewhite;
+    font-size: 40px; }
 
 .container-fluid {
   margin: auto;
@@ -168,3 +152,212 @@ main {
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
       color: white;
       background-color: blueviolet; }
+
+@media (max-width: 1024px) {
+  .section-principal {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    .section-principal h1 {
+      color: white;
+      font-size: 75px; }
+    .section-principal h2 {
+      color: white; }
+    .section-principal img {
+      display: none; }
+  .section, main .section-dos {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 80%;
+    margin: 15px auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 0.5rem; }
+  .container-fluid {
+    width: 70%; } }
+
+@media (max-width: 911px) {
+  header nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding: 0.5; }
+    header nav .menu ul {
+      flex-direction: column;
+      align-items: start;
+      padding: 0.5rem; }
+  header nav label {
+    display: inline-flex;
+    color: white;
+    cursor: pointer; }
+  header nav #toggle:checked ~ .menu {
+    height: 70vh; } }
+
+@media (max-width: 768px) {
+  .section-principal {
+    height: 300px;
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    .section-principal h1 {
+      color: white;
+      font-size: 40px;
+      padding: 50px; }
+    .section-principal h2 {
+      display: none; }
+    .section-principal img {
+      display: block;
+      border: 5px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+      outline: 1px solid #fff; }
+  .section img, main .section-dos img {
+    display: none; }
+  .container-fluid {
+    width: 80%;
+    margin-top: 20%; }
+  .container-contact {
+    margin-top: 32%; }
+    .container-contact h1 {
+      font-size: 110px;
+      text-align: center; } }
+
+@media (max-width: 425px) {
+  .section-principal {
+    height: 300px;
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    .section-principal h1 {
+      text-align: center;
+      color: white;
+      font-size: 40px;
+      padding: 50px; }
+    .section-principal h2 {
+      display: none; }
+    .section-principal img {
+      display: block;
+      max-width: 70%;
+      border: 5px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+      outline: 1px solid #fff; }
+  .section img, main .section-dos img {
+    display: none; }
+  .container-fluid .carrusel {
+    display: none; }
+  .container-fluid .button-repository {
+    margin-top: 120%; }
+  .container-fluid img {
+    display: block;
+    margin-top: -130%;
+    margin-left: 10%;
+    max-width: 95%; }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; }
+    main .iframe {
+      display: none; }
+    main .iframe-responsive {
+      display: block; }
+  .container-contact {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center; }
+    .container-contact h1 {
+      display: none; }
+    .container-contact p {
+      display: none; }
+    .container-contact img {
+      display: block; }
+    .container-contact .button-contact {
+      display: flex;
+      flex-direction: column;
+      padding: 1.5rem;
+      gap: 1rem; }
+      .container-contact .button-contact .button-email {
+        margin: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 10px 40px;
+        border-radius: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        color: white;
+        background-color: blueviolet; }
+      .container-contact .button-contact .button-wp {
+        margin: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 10px 40px;
+        border-radius: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        color: white;
+        background-color: blueviolet; } }
+
+@media (max-width: 375px) {
+  .section h1, main .section-dos h1, .section h2, main .section-dos h2 {
+    display: none; }
+  footer {
+    font-size: 18px; } }
+
+@media (max-width: 320px) {
+  .container-fluid .button-repository {
+    font-size: 1em; }
+  .container-fluid img {
+    max-width: 70%;
+    margin-left: 15%; }
+  .container-contact {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center; }
+    .container-contact h1 {
+      display: none; }
+    .container-contact p {
+      display: none; }
+    .container-contact img {
+      display: block;
+      max-width: 80%;
+      margin-left: 12%; }
+    .container-contact .button-contact {
+      display: flex;
+      flex-direction: column;
+      padding: 1.5rem;
+      gap: 1rem; }
+      .container-contact .button-contact .button-email {
+        margin: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 10px 40px;
+        border-radius: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        color: white;
+        background-color: blueviolet; }
+      .container-contact .button-contact .button-wp {
+        margin: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 10px 40px;
+        border-radius: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        color: white;
+        background-color: blueviolet; }
+  footer {
+    font-size: 16px; } }

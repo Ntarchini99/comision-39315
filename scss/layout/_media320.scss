@@ -1,0 +1,75 @@
+@media(max-width:320px){
+    // PORTFOLIO
+
+    .container-fluid{
+        .button-repository{
+            font-size: 1em;
+        }
+        img{
+            max-width: 70%;
+            margin-left: 15%;
+        }
+    }
+
+    // CONTACTO
+
+    .container-contact{
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    
+        h1{
+            display: none;
+        }
+    
+        p{
+            display: none;
+        }
+    
+        img{
+            display: block;
+            max-width: 80%;
+            margin-left: 12%;
+        }
+    
+    .button-contact{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        gap: 1rem;
+    
+        .button-email {
+            margin: 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 10px 40px;
+            border-radius: 10px;
+            border: 2px solid rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            color: $color-letter;
+            background-color: blueviolet;
+        }
+        
+        .button-wp {
+            margin: 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 10px 40px;
+            border-radius: 10px;
+            border: 2px solid rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            color: $color-letter;
+            background-color: blueviolet;
+        }
+    
+    }
+    }
+
+
+
+    footer{
+        font-size: 16px;
+    }
+}
