@@ -1,7 +1,7 @@
 @media(max-width:768px){
     .section-principal{
         height: 300px;
-        margin-top: 30%;
+        margin-top: 10%;
         @include flex(center, center, column);
     
         h1{

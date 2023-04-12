@@ -200,7 +200,7 @@ main {
 @media (max-width: 768px) {
   .section-principal {
     height: 300px;
-    margin-top: 30%;
+    margin-top: 10%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -231,7 +231,7 @@ main {
 @media (max-width: 425px) {
   .section-principal {
     height: 300px;
-    margin-top: 30%;
+    margin-top: 8%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -255,10 +255,10 @@ main {
   .container-fluid .carrusel {
     display: none; }
   .container-fluid .button-repository {
-    margin-top: 120%; }
+    margin-top: 80%; }
   .container-fluid img {
     display: block;
-    margin-top: -130%;
+    margin-top: -120%;
     margin-left: 10%;
     max-width: 95%; }
   main {
@@ -275,7 +275,8 @@ main {
     padding: 20px;
     display: flex;
     flex-flow: column;
-    align-items: center; }
+    align-items: center;
+    margin-top: 2%; }
     .container-contact h1 {
       display: none; }
     .container-contact p {

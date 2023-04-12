@@ -1,7 +1,7 @@
 @media(max-width:425px){
     .section-principal{
         height: 300px;
-        margin-top: 30%;
+        margin-top: 8%;
         @include flex(center, center, column);
     
         h1{
@@ -42,12 +42,12 @@
             }
 
             .button-repository{
-                margin-top: 120%;
+                margin-top: 80%;
             }
 
             img{
                 display: block;
-                margin-top: -130%;
+                margin-top: -120%;
                 margin-left: 10%;
                 max-width: 95%;
             
@@ -79,6 +79,7 @@
             display: flex;
             flex-flow: column;
             align-items: center;
+            margin-top: 2%;
         
             h1{
                 display: none;
@@ -90,6 +91,7 @@
         
             img{
                 display: block;
+                
             }
         
         .button-contact{
