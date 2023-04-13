@@ -155,18 +155,9 @@ main {
 
 @media (max-width: 1024px) {
   .section-principal {
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center; }
+    height: 400px; }
     .section-principal h1 {
-      color: white;
-      font-size: 75px; }
-    .section-principal h2 {
-      color: white; }
-    .section-principal img {
-      display: none; }
+      font-size: 75 px; }
   .section, main .section-dos {
     background-color: gray;
     display: flex;
@@ -200,7 +191,6 @@ main {
 @media (max-width: 768px) {
   .section-principal {
     height: 300px;
-    margin-top: 10%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -230,7 +220,7 @@ main {
 
 @media (max-width: 425px) {
   .section-principal {
-    height: 300px;
+    height: 100px;
     margin-top: 8%;
     display: flex;
     justify-content: center;

@@ -1,6 +1,6 @@
 @media(max-width:425px){
     .section-principal{
-        height: 300px;
+        height: 100px;
         margin-top: 8%;
         @include flex(center, center, column);
     
