@@ -8,11 +8,19 @@
     h1{
         color: $color-letter;
         font-size: 150px;
+        animation: bounce 1s ease-in-out infinite;
     }
 
     p{
         color: $color-letter;
         font-size: 20px;
+        animation: bounce 1s ease-in-out infinite;
+    }
+
+    @keyframes bounce {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
     }
 
     img{
@@ -24,6 +32,8 @@
     flex-direction: row;
     padding: 1.5rem;
     gap: 1rem;
+    animation: bounce 1s ease-in-out infinite;
+
 
     .button-email {
         margin: 1rem;
