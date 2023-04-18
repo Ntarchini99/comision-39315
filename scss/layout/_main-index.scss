@@ -5,11 +5,32 @@
     h1{
         color: $color-letter;
         font-size: 90px;
+        animation-name: spin-in;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-fill-mode: both;
     }
 
     h2{
         color: $color-letter;
+        animation-name: spin-in;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-fill-mode: both;
     }
+
+    @keyframes spin-in {
+        0% {
+          transform: rotate(-360deg) scale(0);
+          opacity: 0;
+        }
+        100% {
+          transform: rotate(0) scale(1);
+          opacity: 1;
+        }
+      }
     
     img{
         display: none;

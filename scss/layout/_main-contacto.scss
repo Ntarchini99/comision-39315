@@ -6,16 +6,35 @@
     align-items: center;
 
     h1{
-        color: $color-letter;
-        font-size: 150px;
-        
+    color: $color-letter;
+    font-size: 150px;
+    animation-name: spin-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: both;
     }
 
     p{
-        color: $color-letter;
-        font-size: 20px;
-
+    color: $color-letter;
+    font-size: 20px;
+    animation-name: spin-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: both;
     }
+
+    @keyframes spin-in {
+        0% {
+          transform: rotate(-360deg) scale(0);
+          opacity: 0;
+        }
+        100% {
+          transform: rotate(0) scale(1);
+          opacity: 1;
+        }
+      }
 
     img{
         display: none;
@@ -26,6 +45,11 @@
     flex-direction: row;
     padding: 1.5rem;
     gap: 1rem;
+    animation-name: spin-in;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-fill-mode: both;
 
 
     .button-email {
