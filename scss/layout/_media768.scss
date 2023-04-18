@@ -19,13 +19,8 @@
         border-radius: 10px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
         outline: 1px solid #fff;
-        animation: bounce 1s ease-in-out infinite;
     }
-        @keyframes bounce {
-            0% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-            100% { transform: translateY(0); }
-        }
+
     }
 
     // MENU SOBRE MI

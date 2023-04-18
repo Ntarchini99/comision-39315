@@ -5,18 +5,10 @@
     h1{
         color: $color-letter;
         font-size: 90px;
-        animation: bounce 1s ease-in-out infinite;
     }
 
     h2{
         color: $color-letter;
-        animation: bounce 1s ease-in-out infinite;
-    }
-
-    @keyframes bounce {
-        0% { transform: translateY(0); }
-        50% { transform: translateY(-10px); }
-        100% { transform: translateY(0); }
     }
     
     img{
