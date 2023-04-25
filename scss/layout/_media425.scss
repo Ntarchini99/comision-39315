@@ -23,11 +23,6 @@
         border-radius: 10px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
         outline: 1px solid #fff;
-        animation-name: spin-in;
-        animation-duration: 1s;
-        animation-timing-function: ease-in-out;
-        animation-delay: 0s;
-        animation-fill-mode: both;
         }
     }
 
@@ -85,11 +80,6 @@
             flex-flow: column;
             align-items: center;
             margin-top: 2%;
-            animation-name: spin-in;
-            animation-duration: 1s;
-            animation-timing-function: ease-in-out;
-            animation-delay: 0s;
-            animation-fill-mode: both;
         
             h1{
                 display: none;

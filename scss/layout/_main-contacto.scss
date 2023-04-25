@@ -8,21 +8,11 @@
     h1{
     color: $color-letter;
     font-size: 150px;
-    animation-name: spin-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-fill-mode: both;
     }
 
     p{
     color: $color-letter;
     font-size: 20px;
-    animation-name: spin-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-fill-mode: both;
     }
 
     @keyframes spin-in {
@@ -45,11 +35,6 @@
     flex-direction: row;
     padding: 1.5rem;
     gap: 1rem;
-    animation-name: spin-in;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  animation-fill-mode: both;
 
 
     .button-email {
