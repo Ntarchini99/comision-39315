@@ -15,17 +15,6 @@
     font-size: 20px;
     }
 
-    @keyframes spin-in {
-        0% {
-          transform: rotate(-360deg) scale(0);
-          opacity: 0;
-        }
-        100% {
-          transform: rotate(0) scale(1);
-          opacity: 1;
-        }
-      }
-
     img{
         display: none;
     }
