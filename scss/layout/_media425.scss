@@ -1,105 +1,105 @@
-@media(max-width:425px){
-    .section-principal{
+@media(max-width:425px) {
+    .section-principal {
         height: 100px;
         margin-top: 8%;
         @include flex(center, center, column);
-    
-        h1{
+
+        h1 {
             text-align: center;
-         color: $color-letter;
-        font-size: 40px;
-        padding: 50px;
-    
-    }
-    
-        h2{
-        display: none;
+            color: $color-letter;
+            font-size: 40px;
+            padding: 50px;
+
         }
-    
-        img{
-        display: block;
-        max-width: 70%;
-        border: 5px solid #ccc;
-        border-radius: 10px;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-        outline: 1px solid #fff;
+
+        h2 {
+            display: none;
+        }
+
+        img {
+            display: block;
+            max-width: 70%;
+            border: 5px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+            outline: 1px solid #fff;
         }
     }
 
     // MENU SOBRE MI
 
-    .section{
-        img{
+    .section {
+        img {
             display: none;
         }
+    }
+
+    // MENU PORTFOLIO
+
+    .container-fluid {
+        .carrusel {
+            display: none;
         }
 
-        // MENU PORTFOLIO
-
-        .container-fluid{
-            .carrusel{
-                display: none;
-            }
-
-            .button-repository{
-                margin-top: 80%;
-            }
-
-            img{
-                display: block;
-                margin-top: -120%;
-                margin-left: 10%;
-                max-width: 95%;
-            
-            }
+        .button-repository {
+            margin-top: 80%;
         }
 
-        // MENU UBICACION
+        img {
+            display: block;
+            margin-top: -120%;
+            margin-left: 10%;
+            max-width: 95%;
 
-        main{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: auto;
+        }
+    }
 
-            .iframe{
-                display: none;
-            }
-        
-            .iframe-responsive{
-                display: block;
-            }
+    // MENU UBICACION
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+        .iframe {
+            display: none;
         }
 
-        // MENU CONTACTO
+        .iframe-responsive {
+            display: block;
+        }
+    }
 
-        .container-contact{
-            margin: auto;
-            padding: 20px;
-            display: flex;
-            flex-flow: column;
-            align-items: center;
-            margin-top: 2%;
-        
-            h1{
-                display: none;
-            }
-        
-            p{
-                display: none;
-            }
-        
-            img{
-                display: block;
-                
-            }
-        
-        .button-contact{
+    // MENU CONTACTO
+
+    .container-contact {
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin-top: 2%;
+
+        h1 {
+            display: none;
+        }
+
+        p {
+            display: none;
+        }
+
+        img {
+            display: block;
+
+        }
+
+        .button-contact {
             display: flex;
             flex-direction: column;
             padding: 1.5rem;
             gap: 1rem;
-        
+
             .button-email {
                 margin: 1rem;
                 font-size: 1.2rem;
@@ -111,7 +111,7 @@
                 color: $color-letter;
                 background-color: blueviolet;
             }
-            
+
             .button-wp {
                 margin: 1rem;
                 font-size: 1.2rem;
@@ -123,7 +123,7 @@
                 color: $color-letter;
                 background-color: blueviolet;
             }
-        
+
         }
-        }
+    }
 }

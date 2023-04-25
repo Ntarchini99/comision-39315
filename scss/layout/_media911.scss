@@ -1,24 +1,29 @@
-@media(max-width:911px){
-    header{
-        nav{
-           .menu{
-             width: 100%;
-             height: 0;
-             overflow: hidden;
-             padding: 0.5;
-             ul{
-                 flex-direction: column;
-                 align-items: start;
-                 padding: 0.5rem;
-             }}
-             label{
-                 display: inline-flex;
-                 color: $color-letter;
-                 cursor: pointer;
-             }
-             #toggle:checked ~ .menu{
-                 height: 70vh;
-             }
-         }}
+@media(max-width:911px) {
+    header {
+        nav {
+            .menu {
+                width: 100%;
+                height: 0;
+                overflow: hidden;
+                padding: 0.5;
+
+                ul {
+                    flex-direction: column;
+                    align-items: start;
+                    padding: 0.5rem;
+                }
+            }
+
+            label {
+                display: inline-flex;
+                color: $color-letter;
+                cursor: pointer;
+            }
+
+            #toggle:checked~.menu {
+                height: 70vh;
+            }
+        }
+    }
 
 }

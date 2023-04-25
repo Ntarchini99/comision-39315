@@ -20,7 +20,8 @@ header {
     align-items: center;
     padding: 1rem 1.5rem;
     border-radius: 0.4rem; }
-    header nav #toggle, header nav label {
+    header nav #toggle,
+    header nav label {
       display: none; }
     header nav .menu ul {
       list-style: none;
@@ -46,27 +47,9 @@ footer {
   align-items: center; }
   .section-principal h1 {
     color: white;
-    font-size: 90px;
-    animation-name: spin-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-fill-mode: both; }
+    font-size: 90px; }
   .section-principal h2 {
-    color: white;
-    animation-name: spin-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-fill-mode: both; }
-
-@keyframes spin-in {
-  0% {
-    transform: rotate(-360deg) scale(0);
-    opacity: 0; }
-  100% {
-    transform: rotate(0) scale(1);
-    opacity: 1; } }
+    color: white; }
   .section-principal img {
     display: none; }
 
@@ -139,40 +122,17 @@ main {
   align-items: center; }
   .container-contact h1 {
     color: white;
-    font-size: 150px;
-    animation-name: spin-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-fill-mode: both; }
+    font-size: 150px; }
   .container-contact p {
     color: white;
-    font-size: 20px;
-    animation-name: spin-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-fill-mode: both; }
-
-@keyframes spin-in {
-  0% {
-    transform: rotate(-360deg) scale(0);
-    opacity: 0; }
-  100% {
-    transform: rotate(0) scale(1);
-    opacity: 1; } }
+    font-size: 20px; }
   .container-contact img {
     display: none; }
   .container-contact .button-contact {
     display: flex;
     flex-direction: row;
     padding: 1.5rem;
-    gap: 1rem;
-    animation-name: spin-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-fill-mode: both; }
+    gap: 1rem; }
     .container-contact .button-contact .button-email {
       margin: 1rem;
       font-size: 1.2rem;
@@ -361,12 +321,7 @@ main {
       border: 5px solid #ccc;
       border-radius: 10px;
       box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-      outline: 1px solid #fff;
-      animation-name: spin-in;
-      animation-duration: 1s;
-      animation-timing-function: ease-in-out;
-      animation-delay: 0s;
-      animation-fill-mode: both; }
+      outline: 1px solid #fff; }
   .section img, main .section-dos img {
     display: none; }
   .container-fluid .carrusel {
@@ -393,12 +348,7 @@ main {
     display: flex;
     flex-flow: column;
     align-items: center;
-    margin-top: 2%;
-    animation-name: spin-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-fill-mode: both; }
+    margin-top: 2%; }
     .container-contact h1 {
       display: none; }
     .container-contact p {
@@ -432,7 +382,9 @@ main {
         background-color: blueviolet; } }
 
 @media (max-width: 375px) {
-  .section h1, main .section-dos h1, .section h2, main .section-dos h2 {
+  .section h1, main .section-dos h1,
+  .section h2,
+  main .section-dos h2 {
     display: none; }
   footer {
     font-size: 18px; } }

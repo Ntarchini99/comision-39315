@@ -1,10 +1,13 @@
-@media(max-width:375px){
-    .section{
-        h1, h2{
+@media(max-width:375px) {
+    .section {
+
+        h1,
+        h2 {
             display: none;
         }
     }
-    footer{
+
+    footer {
         font-size: 18px;
     }
 }

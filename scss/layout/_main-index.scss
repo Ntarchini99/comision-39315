@@ -1,17 +1,17 @@
-.section-principal{
+.section-principal {
     height: 600px;
     @include flex(center, center, column);
 
-    h1{
+    h1 {
         color: $color-letter;
         font-size: 90px;
     }
 
-    h2{
+    h2 {
         color: $color-letter;
     }
-    
-    img{
+
+    img {
         display: none;
     }
 }

@@ -1,16 +1,17 @@
-@media(max-width:1024px){
+@media(max-width:1024px) {
 
-    .section-principal{
+    .section-principal {
         height: 400px;
-        h1{
+
+        h1 {
             font-size: 75 px;
         }
-    
+
     }
 
     // MENU SOBRE MI
 
-    .section{
+    .section {
         background-color: gray;
         display: flex;
         justify-content: space-between;
@@ -18,13 +19,13 @@
         width: 80%;
         margin: 15px auto;
         border-radius: 20px;
-        box-shadow: 10px 10px 10px rgba(0,0,0, .5);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
         margin-top: 0.5rem;
     }
 
     // MENU PORTFOLIO
 
-    .container-fluid{
+    .container-fluid {
         width: 70%;
     }
 }

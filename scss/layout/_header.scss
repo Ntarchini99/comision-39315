@@ -1,36 +1,36 @@
-header{
+header {
     width: 100%;
     margin: 0 auto;
     padding: 0.5rem;
 
-    nav{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: start;
-      align-items: center;
-      padding: 1rem 1.5rem;
-      border-radius: 0.4rem;
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        border-radius: 0.4rem;
 
-      #toggle, label{
-        display: none;
-      }
-    
-    .menu{
-        ul{
-            list-style: none;
-            display: flex;
-            gap: 2rem;
+        #toggle,
+        label {
+            display: none;
+        }
 
-            a{
-                text-decoration: none;
-                color: $color-letter;
-                
-                &:hover{
-                    color: lightblue;
+        .menu {
+            ul {
+                list-style: none;
+                display: flex;
+                gap: 2rem;
+
+                a {
+                    text-decoration: none;
+                    color: $color-letter;
+
+                    &:hover {
+                        color: lightblue;
+                    }
                 }
             }
         }
     }
- }
 }
-

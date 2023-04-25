@@ -1,47 +1,47 @@
-main{
+main {
     display: flex;
     flex-direction: column;
 
-.section{
-    background-color: gray;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    width: 80%;
-    margin: 15px auto;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px rgba(0,0,0, .5);
-    margin-top: 4rem;
+    .section {
+        background-color: gray;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        width: 80%;
+        margin: 15px auto;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+        margin-top: 4rem;
 
-    img{
-        width: 200px;
-        border-radius: 30px;
-        border: dashed 3px white;
+        img {
+            width: 200px;
+            border-radius: 30px;
+            border: dashed 3px white;
+        }
+
+        h1 {
+            padding: 0.5rem;
+            margin: auto;
+            color: antiquewhite;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        p {
+            padding: 0.5rem;
+            color: $color-letter;
+            margin-right: 15px;
+        }
     }
 
-    h1{
-        padding: 0.5rem;
-        margin: auto;
-        color: antiquewhite;
-        text-align: center;
-        font-size: 40px;
-    }
+    .section-dos {
+        @extend .section;
 
-    p{
-        padding: 0.5rem;
-        color: $color-letter;
-        margin-right: 15px;
+        h2 {
+            text-align: center;
+            color: antiquewhite;
+            font-size: 40px;
+        }
     }
-}
-
-.section-dos{
-    @extend  .section;
-
-    h2{
-        text-align: center;
-        color: antiquewhite;
-        font-size: 40px;
-    }
-}
 
 }

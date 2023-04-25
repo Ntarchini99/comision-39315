@@ -1,51 +1,51 @@
-@media(max-width:768px){
-    .section-principal{
+@media(max-width:768px) {
+    .section-principal {
         height: 300px;
         @include flex(center, center, column);
-    
-        h1{
-         color: $color-letter;
-        font-size: 40px;
-        padding: 50px;
-    }
-    
-        h2{
-        display: none;
+
+        h1 {
+            color: $color-letter;
+            font-size: 40px;
+            padding: 50px;
         }
-    
-        img{
-        display: block;
-        border: 5px solid #ccc;
-        border-radius: 10px;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-        outline: 1px solid #fff;
-    }
+
+        h2 {
+            display: none;
+        }
+
+        img {
+            display: block;
+            border: 5px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+            outline: 1px solid #fff;
+        }
 
     }
 
     // MENU SOBRE MI
 
-    .section{
-        img{
+    .section {
+        img {
             display: none;
         }
+    }
+
+    // MENU PORTFOLIO
+
+    .container-fluid {
+        width: 80%;
+        margin-top: 20%;
+    }
+
+    // MENU CONTACTO
+
+    .container-contact {
+        margin-top: 32%;
+
+        h1 {
+            font-size: 110px;
+            text-align: center;
         }
-
-        // MENU PORTFOLIO
-
-        .container-fluid{
-            width: 80%;
-            margin-top: 20%;
-        }
-
-        // MENU CONTACTO
-
-        .container-contact{
-            margin-top: 32%;
-
-            h1{
-                font-size: 110px;
-                text-align: center;
-            }
-        }
+    }
 }
