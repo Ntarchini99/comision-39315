@@ -158,7 +158,7 @@ main {
   .section-principal {
     height: 400px; }
     .section-principal h1 {
-      font-size: 75 px; }
+      font-size: 75px; }
   .section, main .section-dos {
     background-color: gray;
     display: flex;
@@ -187,7 +187,11 @@ main {
     color: white;
     cursor: pointer; }
   header nav #toggle:checked ~ .menu {
-    height: 70vh; } }
+    height: 70vh; }
+  .section-principal {
+    height: 300px; }
+    .section-principal h1 {
+      font-size: 75px; } }
 
 @media (max-width: 768px) {
   .section-principal {
